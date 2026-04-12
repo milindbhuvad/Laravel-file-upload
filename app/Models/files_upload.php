@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class files_upload extends Model
+{
+    use HasFactory;
+    
+    protected $table = 'files_upload';
+    protected $fillable = ['file_path'];
+}
